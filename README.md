@@ -21,7 +21,7 @@ Previously, at SAFE Security:
 
 ### Building on the side
 
-- **Market-data stack (currently building):** a from-scratch Go pipeline: **[lob](https://github.com/jayrajadeja/lob)** (deterministic limit order book) → **[tickstore](https://github.com/jayrajadeja/tickstore)** (append-only, sparse-indexed tick store) → **[candle](https://github.com/jayrajadeja/candle)** (OHLCV aggregation). Integer cores, standard library only, one 25-byte record on a pipe.
+- **Market-data stack (currently building):** a from-scratch Go pipeline: **[lob](https://github.com/jayrajadeja/lob)** (deterministic limit order book) → **[tickstore](https://github.com/jayrajadeja/tickstore)** (append-only, sparse-indexed tick store) → **[candle](https://github.com/jayrajadeja/candle)** (OHLCV aggregation) → **[chart](https://github.com/jayrajadeja/chart)** (ASCII candlestick charts). Integer cores, standard library only, one 25-byte record on a pipe.
 - **[echofloat](https://github.com/jayrajadeja/echofloat):** native macOS lyrics overlay (Swift).
 - **[assistant-bot](https://github.com/jayrajadeja/assistant-bot):** Slack assistant over repos, GitHub, Jira and Confluence.
 - **[Portfolio](https://github.com/jayrajadeja/jayrajadeja.github.io):** a statically exported Next.js "living data system," all content real and aggregate.
